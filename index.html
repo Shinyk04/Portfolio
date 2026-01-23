@@ -123,14 +123,32 @@
                 </a>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/SpiderFront.png" class="work__image" alt="Project 1" />
-            </div>
-            <div class="work__image-box">
-              <img src="./images/SpiderLow.png" class="work__image" alt="Project 1" />
-            </div>
-            <div class="work__image-box">
-              <img src="./images/SpiderTop-Down.png" class="work__image" alt="Project 1" />
+            <div class="work__media">
+              <!-- Image row -->
+              <div class="work__media-row">
+                <div class="work__image-box">
+                  <img src="./images/SpiderFront.png" class="work__image clickable" onclick="openLightbox(this.src)" />
+                </div>
+                <div class="work__image-box">
+                  <img src="./images/SpiderLow.png" class="work__image clickable" onclick="openLightbox(this.src)" />
+                </div>
+                <div class="work__image-box">
+                  <img src="./images/SpiderTop-Down.png" class="work__image clickable" onclick="openLightbox(this.src)" />
+                </div>
+              </div>
+
+              <!-- Video row -->
+              <div class="work__media-row">
+                <div class="work__image-box">
+                  <video
+                    class="work__image"
+                    src="./videos/Final-mp4.mp4"
+                    controls
+                    muted
+                    playsinline
+                  ></video>
+                </div>
+              </div>
             </div>
           </div>
 
