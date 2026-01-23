@@ -490,6 +490,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
+    overflow: hidden;
+}
+
+@media(min-width: 901px) {
+    .work__image-box {
+        flex: 1;
+        margin-left: 2rem;
+        overflow: hidden;
+    }
 }
 
 .work__image-box video {
@@ -498,13 +507,6 @@ body:not(.user-is-tabbing) a:focus {
   height: auto;
   display: block;
   object-fit: contain;
-}
-
-@media(min-width: 901px) {
-    .work__image-box {
-        flex: 1;
-        margin-left: 2rem;
-    }
 }
 
 @media(max-width: 900px) {
