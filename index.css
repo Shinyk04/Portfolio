@@ -492,6 +492,14 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
+.work__image-box video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
